@@ -1,0 +1,64 @@
+.sidebar1{
+    display:flex;
+    flex-direction: column;
+    padding: 30px 0 0 30px;
+}
+.card span{
+    padding-left:20px;
+}
+.card{
+    display: flex;
+    padding-bottom:30px;
+}
+.sideBarContainer{
+    width:max-content;
+    position:sticky;
+    top:4rem;
+    overflow-y: scroll;
+    height: 100vh;
+}
+::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #F5F5F5;
+
+}
+::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #F5F5F5;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+}
+
+button{
+    width:8rem;
+    height:2rem;
+    border-radius:10px;
+    border:none;
+    color: black;
+    background-color: rgb(206, 203, 203);
+}
+.myLine{
+    margin:2rem auto 0 auto;
+    width:19rem;
+
+}
+.friend > img{
+    width:45px;
+    height:45px;
+    border-radius:100%;
+}
+.friendsList{
+    padding:20px 0px 0px 30px;
+    display:flex;
+    flex-direction: column;
+}
+.friend{
+    display:flex;
+    gap:20px;
+    align-items: center;
+    margin-bottom:20px;
+}

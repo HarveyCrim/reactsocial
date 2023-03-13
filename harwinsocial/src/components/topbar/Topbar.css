@@ -1,0 +1,76 @@
+.topBarContainer{
+    width:100vw;
+    display:flex;
+    background-color: rgb(8, 96, 227);
+    color:white;
+    align-items: center;
+    z-index:2;
+    position:sticky;
+    top:0;
+    height:4rem;
+    justify-content:space-between;
+}
+.profile > img{
+    width:45px;
+    height:45px;
+    border-radius: 100%;
+}
+.profile{
+    padding: 0.3rem 1rem 0  0;
+} 
+
+.searchBoxAndOps{
+    display: flex;
+   
+    border-radius: 10px;
+    align-items: center;
+    gap:10px;
+    height:max-content;
+  
+}
+.searchBox > span{
+    color:grey;
+    padding-top: 7px;
+    padding-left: 0.3rem;
+}
+.searchBox{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width:32rem;
+    border-radius: 10px;
+
+    height:2.6rem;
+}
+.searchBox > input{
+    outline: none;
+    border: none;
+    width:31rem;
+    padding-left: 0.3rem;
+}
+.topBarIcons{
+    padding-top: 0.5rem;
+    margin-left:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+.customIcon{
+    position: relative;
+}
+.circularIcon{
+    position:absolute;
+    right:-9px;
+    top:-9px;
+}
+.logo{
+    cursor: pointer;
+    padding-left: 0.7rem;
+}
+.circularIcon > span{
+    background-color: red;
+    border-radius:100%;
+    padding:0 6px 0 6px;
+    font-size:0.8rem;
+}

@@ -1,0 +1,48 @@
+.largeImage{
+    width:22rem;
+    height:19rem;
+    margin:1.2rem 6rem 0 0;
+    border-radius:10px;
+}
+.rightbarContainer{
+
+    position:fixed;
+    overflow-y: scroll;
+    height: 100vh;
+   
+}
+::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #F5F5F5;
+
+}
+::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #F5F5F5;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+}
+.imageContainer{
+    padding-right: 2rem;
+    position:relative;
+}
+.textForImage{
+    font-size:1.8rem;
+    width:13rem;
+    color:white;
+    position: absolute;
+    top:7rem;
+    left:2rem;
+}
+.friendsTitle{
+    font-weight: bold;
+    padding-top: 2rem;
+}
+.onlineFriends{
+    margin-left:0;
+    padding-left:0;
+}

@@ -1,0 +1,16 @@
+.customRightBar{
+    padding-top:1rem;
+}
+.customRightBar > h1{
+    padding-bottom:1rem;
+}
+.dataProfile{
+    font-size:1rem;
+}
+.dataProfile > p{
+    margin-bottom: 0.7rem;
+}
+.FriendsHeading{
+    margin-top:4rem;
+    font-size: 1.7rem;
+}

@@ -1,0 +1,12 @@
+.organizer{
+    display:flex;
+}
+.left{
+    flex:3;
+}
+.right{
+    flex:3
+}
+.middle{
+    flex:6
+}

@@ -1,0 +1,52 @@
+.loginComps{
+    display: flex;
+    height:100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tagLine > h1{
+    color: rgba(13, 13, 221, 0.719);
+    font-size: 5rem;
+}
+.tagLine > p{
+    color: rgba(67, 67, 107, 0.719);
+    font-size: 1.5rem;
+}
+.loginForm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.loginForm input{
+    width:30rem;
+    padding-left: 10px;
+    height:3.3rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.loginForm button{
+    margin: auto;
+}
+.signUp{
+    background-color: green;
+    width:20rem;
+    color:white;
+    height:3rem;
+    margin-bottom: 3rem;
+}
+.LoginButton{
+    height:3rem;
+    background-color: rgb(54, 20, 207);
+    width:20rem;
+    color:white;
+    margin-top: 3rem;
+}
+.formLogin{
+    background-color: aliceblue;
+    height:30rem;
+    padding:20px;
+
+    border-radius:20px;
+    box-shadow: 1px 1px 1px rgb(229, 229, 234);
+}

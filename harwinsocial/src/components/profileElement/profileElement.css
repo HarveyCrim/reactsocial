@@ -1,0 +1,31 @@
+.coverPic{
+    height:24rem;
+    width:100%;
+    object-fit:cover;
+}
+.imagesAll{
+    height:320px;
+    position:relative;
+}
+.profileElementContainer{
+    z-index: 1;
+}
+.dpinput{
+    width:13rem;
+    cursor : "pointer";
+    height:13rem;
+    border-radius: 100%;
+    border:5px solid white;
+}
+.dp{
+    position:absolute;
+    text-align: center;
+    top:16rem;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.infoData{
+    text-align: center;
+    margin-top: 10rem;;
+}
